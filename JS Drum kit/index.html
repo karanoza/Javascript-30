@@ -57,8 +57,7 @@
 
     <script>
       function removeTransition(e) {
-        if (e.propertyName !== "
-        ") return; //skip it if its not transform
+        if (e.propertyName !== "transform") return; //skip it if its not transform
         e.target.classList.remove("playing");
       }
 
